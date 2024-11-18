@@ -1,0 +1,56 @@
+/*reset window*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#filters h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+img {
+    height: 200px;
+    width: 350px;
+}
+
+#filters {
+    margin-bottom: 50px;
+}
+
+#car-listings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.car-card {
+    border: 1px solid #000000;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 400px;
+    width: 400px;
+}
+
+.car-card p {
+    margin: 5px 0;
+    color: #36454F;
+}
